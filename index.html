@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Никита | Разработка ботов и сайтов</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container flex-header">
+            <div class="logo">N<span>IKITA</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#skills">Навыки</a></li>
+                    <li><a href="#projects">Проекты</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="https://github.com/37737337" target="_blank" class="github-link">GitHub</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-text">
+                        <h1>Никита <span>Web & Python Dev</span></h1>
+                        <p>Студент Hexlet College. Создаю автоматизированные решения на Python и занимаюсь современной веб-версткой.</p>
+                        <a href="#projects" class="btn">Мои работы</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <div class="container">
+                <h2 class="text-center">Что я умею</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-label">Frontend</div>
+                        <p>Верстка на HTML5 и CSS3. Создание адаптивных сайтов (Flexbox, Grid), которые корректно отображаются на телефонах.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label">Backend</div>
+                        <p>Разработка ботов на Python (библиотека aiogram). Работа с API Telegram и автоматизация задач.</p>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-label">Data</div>
+                        <p>Парсинг сайтов с помощью BeautifulSoup4. Извлечение нужной информации из веб-страниц в автоматическом режиме.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="text-center">Портфолио проектов</h2>
+                <div class="projects-grid">
+                    
+                    <div class="project-card">
+                        <div class="img-container site-preview">
+                            <span>WEB</span>
+                        </div>
+                        <div class="p-4">
+                            <h3>Сайт-портфолио</h3>
+                            <p>Мой личный сайт, созданный для презентации проектов. Здесь я использовал современные CSS-эффекты размытия и сетки для выравнивания контента.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="img-container"><img src="img/schedule.png" alt="Schedule"></div>
+                        <div class="p-4">
+                            <h3>Бот с расписанием</h3>
+                            <p>Бот на Python, который сам заходит на сайт колледжа (парсинг), забирает расписание и присылает его в чат. Умеет уведомлять об изменениях.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="img-container"><img src="img/diary.png" alt="Diary"></div>
+                        <div class="p-4">
+                            <h3>Бот-дневник</h3>
+                            <p>Система для просмотра оценок. Реализована логика для учеников и учителей, чтобы удобно следить за успеваемостью через Telegram.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="img-container"><img src="img/tagger.png" alt="Tagger"></div>
+                        <div class="p-4">
+                            <h3>Бот-тегер</h3>
+                            <p>Утилита для быстрого упоминания людей в группах. Позволяет не забыть никого при важных объявлениях в учебных чатах.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-card">
+                    <h2 class="text-center">Связь</h2>
+                    <div class="contact-info">
+                        <p>Почта: <strong>nktsbog@gmail.com</strong></p>
+                        <p>GitHub: <a href="https://github.com/37737337" target="_blank">37737337</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Никита. Студент Hexlet College.</p>
+    </footer>
+
+</body>
+</html>
